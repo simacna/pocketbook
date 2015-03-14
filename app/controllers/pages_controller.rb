@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
+	#user && user.authenticate(params[:session][:password])
 
-	def signup
-	end
+	before_action :require_user, except: [:contact, :help]
 
 	def contact
 	end
