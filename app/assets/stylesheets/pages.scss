@@ -1,0 +1,75 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg");
+}
+
+.container {
+  width: 940px;
+
+}
+
+.container {
+	 border-bottom: 1px solid white;
+	 padding-bottom: 5px;
+}
+.header img {
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin: 0 auto;
+	padding: 8px 0px;
+}
+
+label {
+	color: white;
+}
+
+.container h1 {
+	color: white;
+	padding-top: 30px;
+}
+
+.form-control {
+	width: 50%;
+}
+
+#createaccount {
+	background-color: #296253;
+	opacity: 0.8;
+	color: white;
+	margin-top: 40px;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 100px;
+}
+
+ul {
+	padding-left: 0px;
+	padding-top: 20px;
+}
+
+.footer .container {
+	padding-left: 0px;
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+
+ul li {
+	display: inline;
+	padding-right: 15px;
+	list-style: none;
+}
+
+li a {
+	color: white;
+}
+
+
+
+
